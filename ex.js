@@ -1,3 +1,6 @@
 function change(){
-    document.write("halo");
+    document.getElementById("d").innerHTML = "Hola";
+}
+function remove(){
+    document.getElementById("d").innerHTML = "";
 }
